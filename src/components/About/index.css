@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.about-small {
+  width: 90%;
+  height: 400px;
+}
+@media screen and (min-width: 768px) {
+  .about-small {
+    display: none;
+  }
+}
+.about-large {
+  height: 400px;
+}
+@media screen and(max-width:767px) {
+  .about-large {
+    display: none;
+  }
+}
